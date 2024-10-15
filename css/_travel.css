@@ -1,0 +1,35 @@
+.travel-info {
+   background-image: url(../images/travel-info-bgr.jpg);
+   background-position: top center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 30px 0 50px;
+}
+
+.tytle {
+   text-align: center;
+   font-weight: 500;
+   font-size:36px;
+   line-height: 130%;
+} 
+
+.travel-info__tytle {
+   color: #fff;
+   margin-bottom: 50px;
+}
+
+.travel-info__items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 54px 67px;
+}
+
+.travel-info__img {
+    margin-bottom: 15px;
+}
+
+.travel-info__text {
+    color: #fff;
+    font-size: 16px;
+    line-height: 130%;
+}
